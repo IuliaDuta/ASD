@@ -1,7 +1,7 @@
 ---
 layout: item
 title: Seminar 1
-permalink: /seminar1/
+permalink: /Seminarii/seminar1/
 ---
 
 Continut
