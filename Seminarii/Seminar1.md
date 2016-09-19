@@ -1,6 +1,6 @@
 ---
 layout: item
-permalink: /Seminarii/seminar1/
+permalink: /Seminarii/Seminar1/
 ---
 
 Continut
