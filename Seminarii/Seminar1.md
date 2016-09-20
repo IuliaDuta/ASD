@@ -137,6 +137,7 @@ Coada circulara:
 
 ### Probleme
 
+
 - 2 stive dintr-un vector (http://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/)
 - coada din 2 stive (Queue)
 - stiva din doua cozi
@@ -149,8 +150,7 @@ Coada circulara:
 - sort stack with recurson (http://www.geeksforgeeks.org/sort-a-stack-using-recursion/)
 - Evaluating arithmetic expressions
 
-
-** Memorie:** 
+**Memorie:** 
 
 
 -memorie: O(maxim_asteptat) <- riscuri
