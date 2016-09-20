@@ -138,16 +138,16 @@ Coada circulara:
 ### Probleme
 
 
-- 2 stive dintr-un vector (http://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/)
+- 2 stive dintr-un vector [click](http://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/)
 - coada din 2 stive (Queue)
 - stiva din doua cozi
 - parantezare corecta / Editor
 - Trompeta
-- STPAR (http://www.spoj.com/problems/STPAR/)
-- ONP (http://www.spoj.com/problems/ONP/)
-- Maximum Element (https://www.hackerrank.com/challenges/maximum-element)
- 		(http://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/))
-- sort stack with recurson (http://www.geeksforgeeks.org/sort-a-stack-using-recursion/)
+- STPAR [click](http://www.spoj.com/problems/STPAR/)
+- ONP [click](http://www.spoj.com/problems/ONP/)
+- Maximum Element [click](https://www.hackerrank.com/challenges/maximum-element)
+ 		sau [click](http://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/))
+- sort stack with recurson [click](http://www.geeksforgeeks.org/sort-a-stack-using-recursion/)
 - Evaluating arithmetic expressions
 
 **Memorie:** 
@@ -173,6 +173,6 @@ pop_front
 ### Probleme:
 
 
-- dequeue (http://www.infoarena.ro/problema/deque)
+- dequeue [click](http://www.infoarena.ro/problema/deque)
 
 
