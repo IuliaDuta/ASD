@@ -48,9 +48,12 @@ Acest seminar introduce concepte de baza legate de **stive** si **cozi** si o in
 ```
 
 **Probleme:**
+
+
   -memoria alocata inutil (O(max elemente la un moment))
 
 **STL**
+
 ``` C++
 
 stack<int> mystack;
@@ -64,9 +67,10 @@ stack<int> mystack;
 ```
 #### Coada
 
+
 ``` C++
-typedef struct{						probleme: -memorie muulta (O(nr_elemente_total))
-    int content[100];				solutie: coada circulara / stl
+typedef struct{						
+    int content[100];				
     int head;
     int tail;
 
@@ -89,10 +93,16 @@ typedef struct{						probleme: -memorie muulta (O(nr_elemente_total))
 
 ```
 
-**Problema: **  -memorie muulta (O(nr_elemente_total))
-**Solutie: ** -solutie: coada circulara / stl
+**Problema: **  
+
+-memorie muulta (O(nr_elemente_total))
+
+**Solutie: ** 
+
+-solutie: coada circulara / stl
     
 **STL: **
+
 
 ``` C++
 queue<int> q;
