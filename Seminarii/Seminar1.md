@@ -47,12 +47,11 @@ Acest seminar introduce concepte de baza legate de **stive** si **cozi** si o in
   } my_stack;
 ```
 
-**Probleme:**
-
-
-  -memoria alocata inutil (O(max elemente la un moment))
+**Probleme:**. -memoria alocata inutil (O(max elemente la un moment))
 
 **STL**
+
+Implementare de baza:
 
 ``` C++
 
@@ -65,9 +64,9 @@ stack<int> mystack;
 - empty()
 ```
 
-
 #### Coada
 
+Implementare de baza:
 
 ``` C++
 typedef struct{						
@@ -96,9 +95,11 @@ typedef struct{
 
 **Problema:**  
 
+
 -memorie muulta (O(nr_elemente_total))
 
 **Solutie:** 
+
 
 -solutie: coada circulara / stl
     
@@ -136,9 +137,6 @@ Coada circulara:
 
 ### Probleme
 
-
-Probleme:
-
 - 2 stive dintr-un vector (http://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/)
 - coada din 2 stive (Queue)
 - stiva din doua cozi
@@ -154,9 +152,11 @@ Probleme:
 
 ** Memorie:** 
 
+
 -memorie: O(maxim_asteptat) <- riscuri
 
 #### Dequeue
+
 
 - In aceasta structura, valorile pot fi inserate sau eliminate atat pe la inceputul, cat si pe la sfarsitul deque-ului, toate aceste operatii avand loc in timp O(1) amortizat.
 
