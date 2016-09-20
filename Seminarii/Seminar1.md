@@ -135,8 +135,8 @@ Probleme:
 - Trompeta
 - STPAR (http://www.spoj.com/problems/STPAR/)
 - ONP (http://www.spoj.com/problems/ONP/)
-- Maximum Element (https://www.hackerrank.com/challenges/maximum-element) + 
-					(http://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/))
+- Maximum Element (https://www.hackerrank.com/challenges/maximum-element)
+ 		(http://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/))
 - sort stack with recurson (http://www.geeksforgeeks.org/sort-a-stack-using-recursion/)
 - Evaluating arithmetic expressions
 
@@ -145,7 +145,10 @@ Probleme:
 
 #### Dequeue
 
-``` C++
+- In aceasta structura, valorile pot fi inserate sau eliminate atat pe la inceputul, cat si pe la sfarsitul deque-ului, toate aceste operatii avand loc in timp O(1) amortizat.
+
+```C++
+
 dequeue<int>
 push_back
 push_front
@@ -154,9 +157,7 @@ pop_front
 
 ```
 
-- In aceasta structura, valorile pot fi inserate sau eliminate atat pe la inceputul, cat si pe la sfarsitul deque-ului, toate aceste operatii avand loc in timp O(1) amortizat.
-
-###Probleme:
+### Probleme:
 
 
 - dequeue (http://www.infoarena.ro/problema/deque)
