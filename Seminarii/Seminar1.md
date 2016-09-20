@@ -63,8 +63,9 @@ stack<int> mystack;
 - pop()
 - push(val)
 - empty()
-
 ```
+
+
 #### Coada
 
 
@@ -93,15 +94,15 @@ typedef struct{
 
 ```
 
-**Problema: **  
+**Problema:**  
 
 -memorie muulta (O(nr_elemente_total))
 
-**Solutie: ** 
+**Solutie:** 
 
 -solutie: coada circulara / stl
     
-**STL: **
+**STL:**
 
 
 ``` C++
@@ -151,7 +152,9 @@ Probleme:
 - Evaluating arithmetic expressions
 
 
-** Memorie: ** -memorie: O(maxim_asteptat) <- riscuri
+** Memorie:** 
+
+-memorie: O(maxim_asteptat) <- riscuri
 
 #### Dequeue
 
