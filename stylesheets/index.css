@@ -110,10 +110,10 @@ body {
   background-color: #fdfdfd;
 }
 
-a p {
+.item a p {
 	display:none;
 }
 
-a:hover p {
+.item a:hover p {
 	display:block;
 }
