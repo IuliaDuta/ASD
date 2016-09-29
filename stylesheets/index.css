@@ -116,4 +116,7 @@ body {
 
 .item a:hover p {
 	display:block;
+	text-decoration: none;
+	color: black;
+	font-size: 10px;
 }
