@@ -110,9 +110,6 @@ body {
   background-color: #fdfdfd;
 }
 
-.item a p {
-	display:none;
-}
 
 .item a.phover:hover {
 	display:block;
