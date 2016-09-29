@@ -110,8 +110,11 @@ body {
   background-color: #fdfdfd;
 }
 
+.item a:hover p {
+	display:none;
+}
 
-.item a.phover:hover {
+.item a:hover p {
 	display:block;
 	text-decoration: none;
 	color: black;
