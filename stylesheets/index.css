@@ -114,7 +114,7 @@ body {
 	display:none;
 }
 
-.item a:hover p {
+.item a.phover:hover {
 	display:block;
 	text-decoration: none;
 	color: black;
