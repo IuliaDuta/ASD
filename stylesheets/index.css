@@ -110,7 +110,7 @@ body {
   background-color: #fdfdfd;
 }
 
-.item a:hover p {
+.item a p {
 	display:none;
 }
 
