@@ -147,6 +147,14 @@ Radix_Sort
 
 ### Extra:
 
+- x si y astfel incat (x, y) minim si cmmdc se calculeaza in fix i pasi
+- find duplicate
+- The stolen breakfast drone - element fara pereche
+- Split Rectangle
+- Find element that apears once (others - 3 times)
+
+
+
   
   
   
