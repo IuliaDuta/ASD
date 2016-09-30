@@ -175,4 +175,13 @@ pop_front
 
 - dequeue [click](http://www.infoarena.ro/problema/deque)
 
+### Extra:
+
+- In-place Linked List Reverse (park)
+- Delete Node
+- K-th to the last node
+- Largest stack
+- Find cycle
+- Clone a linked list with next and random pointer
+
 
