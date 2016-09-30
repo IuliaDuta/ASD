@@ -29,7 +29,7 @@ for j = 2 to len
 
 <font color="red">Complexitate: O(n log n)</font>
 
-  Foloseste paradigma **divide and conquer**
+Foloseste paradigma **divide and conquer**
     divide: imparte inputul A[1..n] in 2 parti egale
     conquer: sortam recursiv cele doua jumatati
     combine: aplicam merge pe cele 2 subsiruri sortate (liniar)
@@ -46,6 +46,7 @@ for j = 2 to len
     
 ```
 
+a
 
 ### Quick Sort
 
