@@ -133,6 +133,19 @@ Radix_Sort
 
 ```
 
+### Probleme:
+
+- Rucsac discontinuu
+- kth smallest
+- Inv [click](http://www.infoarena.ro/problema/inv)
+- Binar [click](http://www.infoarena.ro/problema/binar)
+- Puncte pe o dreapta: 
+    Se dau n puncte in plan. Care e numarul maxim de puncte aflate pe aceasi dreapta.
+- Numarul trapezelor
+    Se dau n puncte in plan. Cate trapeze putem forma?
+- Sorting in wave [click](http://www.geeksforgeeks.org/sort-array-wave-form-2/)
+
+### Extra:
 
   
   
