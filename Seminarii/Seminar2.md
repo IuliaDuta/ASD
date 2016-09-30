@@ -46,6 +46,7 @@ for j = 2 to len
     
 ```
 
+
 ### Quick Sort
 
 <font color="red">Complexitate: O(n log n)</font>
