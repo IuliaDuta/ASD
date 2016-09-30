@@ -34,7 +34,7 @@ Foloseste paradigma **divide and conquer**
     conquer: sortam recursiv cele doua jumatati
     combine: aplicam merge pe cele 2 subsiruri sortate (liniar)
   
-  ``` C++
+``` C++
   
   Merge_Sort(A, p, r)
   
@@ -45,8 +45,6 @@ Foloseste paradigma **divide and conquer**
       Merge(A, p, q, r)
     
 ```
-
-a
 
 ### Quick Sort
 
@@ -66,7 +64,7 @@ Partitia se poate face in mai multe moduri:
   -randomizat (mai eficient pe cazul mediu)
   -median of 3
   
- ``` C++
+``` C++
 
 Quick_Sort(A, p, r)
   q = Partition(A, p, r)
