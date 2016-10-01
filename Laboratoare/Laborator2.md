@@ -1,6 +1,6 @@
 ---
 layout: item
-permalink: /Seminarii/Seminar1/
+permalink: /Laboratoare/Laborator1/
 ---
 
 sortari + altele:
