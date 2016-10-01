@@ -5,8 +5,9 @@ permalink: /Laboratoare/Laborator2/
 
 sortari + altele:
 
-- quicksort
-- mergesort
-- sortare cu smenul lui batog
-- inv
-- sdo
+- quicksort 20p
+- mergesort 20p
+- sortare cu smenul lui batog 20p
+- inv 20p
+- sdo 20p
+- Geometrie 60p
