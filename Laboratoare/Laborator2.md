@@ -1,6 +1,6 @@
 ---
 layout: item
-permalink: /Laboratoare/Laborator1/
+permalink: /Laboratoare/Laborator2/
 ---
 
 sortari + altele:
