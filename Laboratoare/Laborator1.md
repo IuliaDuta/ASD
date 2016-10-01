@@ -1,3 +1,7 @@
+---
+layout: item
+permalink: /Laboratoare/Laborator1/
+---
 
 Structuri de date
 
