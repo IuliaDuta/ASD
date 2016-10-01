@@ -136,7 +136,7 @@ Radix_Sort
 ### Probleme:
 
 - Rucsac discontinuu
-- kth smallest
+- sdo kth smallest
 - Inv [click](http://www.infoarena.ro/problema/inv)
 - Binar [click](http://www.infoarena.ro/problema/binar)
 - Puncte pe o dreapta: 
