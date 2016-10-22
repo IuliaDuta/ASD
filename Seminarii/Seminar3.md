@@ -25,7 +25,7 @@ Implementare: pt fiecare nod tin partinte[nod], left[nod], right[nod]
  <font color="red">Complexitate: O(h)</font>
  
  
- ```C++
+```C++
 Search(nod, val)
    if(x == null || key[nod] == val)
       return x
@@ -85,7 +85,7 @@ Search(nod, val)
  Daca val > v[mid]: se continua cautarea in jumatatea dreapta a sirului
  Daca val < v[mid]: se continua cautarea in jumatatea stanga a sirului
  
- ```C++
+```C++
 
 BinarySearch(val, left, right)
    if(left > right)
@@ -141,7 +141,6 @@ daca f(mid1) =  f(mid2): continui cautarea pe [mid1, mid2]
 **Implementare: **
 
 ```C++
-
 ternarySearch(f, left, right)
    if(right - left < eps)
       return (left + right) / 2
