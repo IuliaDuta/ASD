@@ -33,7 +33,9 @@ Search(nod, val)
       if(val < key[nod])
          return Search(left[nod], val)
       return Search(right[nod], val)
-      
+
+
+
 ```
 
 **Minim/Maxim**
