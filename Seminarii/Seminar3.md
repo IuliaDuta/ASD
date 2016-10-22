@@ -13,5 +13,5 @@ Arbore binar in care nodurile indepliesc conditiile:
 - key[x] <= key[root], pt orice x din subarborele stang al nodului root
 - key[x] >= key[root], pt orice x din subarborele drept al nodului root
 
- <img src="/ASD/images/2000px-Binary_search_tree.svg.png"  width="40" height="60">
+ <img src="/ASD/images/2000px-Binary_search_tree.svg.png"  height="70">
  
