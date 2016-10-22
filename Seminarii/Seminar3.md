@@ -24,6 +24,7 @@ Implementare: pt fiecare nod tin partinte[nod], left[nod], right[nod]
  
  <font color="red">Complexitate: O(h)</font>
  
+ 
  ```C++
 
 Search(nod, val)
