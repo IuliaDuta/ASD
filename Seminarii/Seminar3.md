@@ -19,7 +19,8 @@ Implementare: pt fiecare nod tin partinte[nod], left[nod], right[nod]
  
  - parcurgerea in inordine determina sortarea numerelor
  
- ### Cautarea unui nod
+ 
+**Cautarea unui nod**
  
  <font color="red">Complexitate: O(h)</font>
  
@@ -35,14 +36,14 @@ Search(nod, val)
       
 ```
 
-### Minim/Maxim
+**Minim/Maxim**
 
  <font color="red">Complexitate: O(h)</font>
  
  minim: cel mai din stanga - merg doar pe left
  maxim: cel mai din dreapta - merg doar pe right
  
- ### Inserare
+**Inserare**
  
  <font color="red">Complexitate: O(h)</font>
  
@@ -50,7 +51,7 @@ Search(nod, val)
  
  Se aplica cautarea in arborele binar si cand ajung la null inserez in acel loc nodul
  
- ### Stergere
+**Stergere**
  
  <font color="red">Complexitate: O(h)</font>
   
