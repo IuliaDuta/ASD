@@ -26,7 +26,6 @@ Implementare: pt fiecare nod tin partinte[nod], left[nod], right[nod]
  
  
  ```C++
-
 Search(nod, val)
    if(x == null || key[nod] == val)
       return x
@@ -34,9 +33,6 @@ Search(nod, val)
       if(val < key[nod])
          return Search(left[nod], val)
       return Search(right[nod], val)
-
-
-
 ```
 
 **Minim/Maxim**
