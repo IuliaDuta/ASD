@@ -26,6 +26,7 @@ Implementare: pt fiecare nod tin partinte[nod], left[nod], right[nod]
  
  
 ```C++
+
 Search(nod, val)
    if(x == null || key[nod] == val)
       return x
@@ -97,8 +98,7 @@ BinarySearch(val, left, right)
       return BinarySearch(val, mid + 1, right)
    else
       return BinarySearch(val, left, mid - 1)
-    
-      
+          
 ```
  
 
@@ -107,6 +107,7 @@ BinarySearch(val, left, right)
 Este mai rapida
 
 ```C++
+
 long long binary_search()
     long long i, pas ;
     for(pas = 1; pas < K; pas <<= 1);
@@ -141,6 +142,7 @@ daca f(mid1) =  f(mid2): continui cautarea pe [mid1, mid2]
 **Implementare: **
 
 ```C++
+
 ternarySearch(f, left, right)
    if(right - left < eps)
       return (left + right) / 2
