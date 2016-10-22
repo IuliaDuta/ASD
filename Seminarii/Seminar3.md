@@ -55,7 +55,7 @@ Search(nod, val)
  
  <font color="red">Complexitate: O(h)</font>
   
- <img src="/ASD/images/delete_nod_BST.gif"  height="220">
+ <img src="/ASD/images/delete_nod_BST.gif"  height="320">
  
  Distingem 3 cazuri:
  
@@ -71,9 +71,90 @@ Search(nod, val)
  Creare arbore: worst case/ best case?
  Sortare cu arbore de cautare binar
  
+ ## Cautare binara
  
  
+ <font color="red">Complexitate: O(log n)</font>
  
+ **Problema:** Se da o lista de numere sortata, se cere sa se caute un element in lista.
  
+ Se aplica nu doar pe siruri sortate, ci pe functii crescatoare 
+ Se poate aplica si pentru next smallest, nest largest element
  
+ **Algoritm**
+ Se compara valoarea cu elementul aflat in mijlocul sirului. 
+ Daca val > v[mid]: se continua cautarea in jumatatea dreapta a sirului
+ Daca val < v[mid]: se continua cautarea in jumatatea stanga a sirului
+ 
+ ``` C++
+
+BinarySearch(val, left, right)
+   if(left > right)
+      if(v[right] == x)
+         return right + 1
+      return -1
+   mid = (left + right) / 2    /// left + (right - left) / 2 pt a evita overflowul
+   if(v[mid] <= x)
+      return BinarySearch(val, mid + 1, right)
+   else
+      return BinarySearch(val, left, mid - 1)
+    
+      
+```
+ 
+
+**Cautare binara pe biti**
+
+Este mai rapida
+
+``` C++
+long long binary_search()
+    long long i, pas ;
+    for(pas = 1; pas < K; pas <<= 1);
+    for(i = 0; pas; pas >>= 1)
+    {
+        if(( v[i + pas] <= k - 1)
+            i += pas;
+    }
+    return i + 1;
+
+```
+ 
+## Cautare ternara
+
+ <font color="red">Complexitate: O(log n)</font>
+ 
+Calculeaza maximul/ minimul intr-o functie unimodala (cu un singur punct cel mai marecel mai mic)
+
+ <img src="/ASD/images/ternary.png"  height="220">
+
+**Algoritm:**
+
+Se fragmenteaza inputul in 3 subsegmente egale pri alegerea a 2 puncte:
+
+mid1 = left + (right - left) / 3
+mid2 = right - (right - left) / 3
+
+daca f(mid1) <  f(mid2): continui cautarea pe [mid1, right]
+daca f(mid1) >  f(mid2): continui cautarea pe [left, mid2]
+daca f(mid1) =  f(mid2): continui cautarea pe [mid1, mid2]
+
+**Implementare: **
+
+``` C++
+
+ternarySearch(f, left, right)
+   if(right - left < eps)
+      return (left + right) / 2
+   mid1 = left + (right - left) / 3
+   mid2 = right - (right - left) / 3
+   
+   if(f(mid1) < f(mid2))
+      return ternarySearch(f, mid1, right)
+   if(f(mid1) > f(mid2))
+      return ternarySearch(f, left, mid2)
+   if(f(mid1) - f(mid2) < eps)
+      return ternarySearch(f, mid1, mid2)
+
+```
  
