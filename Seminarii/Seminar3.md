@@ -158,3 +158,21 @@ ternarySearch(f, left, right)
 
 ```
  
+### Probleme:
+
+- Se da un sir de numere sortat. Cate perechi de numere au suma k
+- Se da un sir sortat care a fost rotit circular la dreapta cu un numar de pozitii. Sa se determine pozitia de la care a fost rotit
+- Se da un sir sortat care a fost rotit circular la dreapta cu un numar de pozitii. Sa se determine pozitia de la care a fost rotit. Sa se gaseasca o valoare v in acest sir
+- Proc [click](http://www.infoarena.ro/problema/proc) 
+- Inflight Entertainment - PI
+- Sa se determine mediana comuna a 2 vectori: de aceasi lungime. de lungimi diferite
+- Sa se determine al k-lea cel mai mic numar din interclasarea a 2 siruri sortate
+- Sa se gaseasca elementul c intr-un sir aproape sortat (a fost sortata, dar ulterior cateva din elementele adiacente au fost inversate)
+
+
+### RMQ
+
+Se da un sir de n numere. Se cere sa se raspunda la queryuri de tipul: care este cel mai mic element din intervalul [l, r]
+
+[link](https://www.topcoder.com/community/data-science/data-science-tutorials/range-minimum-query-and-lowest-common-ancestor/)
+
