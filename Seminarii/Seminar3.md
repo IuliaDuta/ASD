@@ -139,7 +139,7 @@ daca f(mid1) <  f(mid2): continui cautarea pe [mid1, right]
 daca f(mid1) >  f(mid2): continui cautarea pe [left, mid2]
 daca f(mid1) =  f(mid2): continui cautarea pe [mid1, mid2]
 
-**Implementare: **
+**Implementare:**
 
 ```C++
 
