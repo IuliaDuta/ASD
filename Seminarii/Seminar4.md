@@ -136,5 +136,17 @@ Variante:
   Pasul 2: Decapitam max-heapul, dar lasam elementul scos pe ultima pozitie din vector, izolat de arbore (lungimea efectiva a vectorului scade cu o unitate la decapitare, insa elementul inca este acolo).
   
   <img src="/ASD/images/heapSort.jpg"  height="350">
+  
+  
+### Probleme:
+
+- statistici de ordine (comparatie v. sortat, v. nesortat, AVL)
+- cate AVLuri distincte se pot forma dintr-un sir?
+- Determinati numarul de inversiuni dintr-un sir.
+- Se dau k siruri sortate. Sa se interclaseze in O(n log k).
+- Sa se determine al k-lea cel mai mare element atunci cand nu putem stoca decat maxim k elemente
+- Connect k ropes with minimum cost (cost = sum of lengths of ropes)
+- Mediana unui sir de intregi primit ca stream (query la fiecare moment de timp)
+- Probleme de pe iarena. Sea
 
 
