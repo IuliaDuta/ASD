@@ -53,3 +53,21 @@ Exista 4 tipuri de rotatii:
 
 <img src="/ASD/images/RightLeftRotation.png"  height="220">
 
+Exemplu:
+
+<img src="/ASD/images/AVLTree.jpg"  height="220">
+
+insert 14, 3, 45, 7, 15
+
+**De ce??**
+
+- utile pentru queryuri succesive de inserare, cautare, stergere
+
+**STL**
+set:  std::set<int> myset;
+
+## Heapuri
+
+
+
+
