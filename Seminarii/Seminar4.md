@@ -1,6 +1,6 @@
 ---
 layout: item
-permalink: /Seminarii/Seminar4/
+permalink: /Seminarii/Seminar4
 ---
 
 ## Seminar 4
@@ -19,6 +19,7 @@ Arbore binar de cautare in care inaltimile fiului stang si fiului drept al fieca
 **Inserare**
 
 Pasul 1: Se insereaza, ca in BST, la locul potrivit conform algoritmului de cautare in arbore. Diferenta de inaltime intre cei 2 poate deveni acum +/- 2 .
+
 Pasul 2: Rebalansam cu ajutorul **rotatiilor**
 
 Exista 4 tipuri de rotatii:
@@ -30,5 +31,25 @@ Exista 4 tipuri de rotatii:
 
 **Rotatia stanga**
 
+-atunci cand se insereaza in staga nodului din stanga
 
+<img src="/ASD/images/leftRotation.png"  height="220">
+
+**Rotatia dreapta**
+
+-atunci cand se insereaza in dreapta nodului din dreapta
+
+<img src="/ASD/images/RightRotation.png"  height="220">
+
+**Rotatia stanga-dreapta**
+
+-atunci cand se insereaza in dreapta nodului din stanga
+
+<img src="/ASD/images/LeftRightRotation.png"  height="220">
+
+**Rotatia dreapta-stanga**
+
+-atunci cand se insereaza in stanga nodului din dreapta
+
+<img src="/ASD/images/RightLeftRotation.png"  height="220">
 
