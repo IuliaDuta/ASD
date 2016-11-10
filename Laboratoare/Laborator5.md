@@ -1,7 +1,6 @@
-
 ---
 layout: item
-permalink: /Laboratoare/Laborator4/
+permalink: /Laboratoare/Laborator5/
 ---
 
 LCA, Cautare binara, Sortari
