@@ -1,6 +1,6 @@
 ---
 layout: item
-permalink: /Seminarii/Seminar4
+permalink: /Seminarii/Seminar5
 ---
 
 ## Seminar 5
@@ -88,5 +88,43 @@ query(st_q, dr_q, int nod, l, r){
  return val1 + val2
 }
 ```
+
+## Arbori indexati binar (AIB)
+
+**Motivatie:** Aceasi ca in cazul arborilor de intervale
+
+**De ce?** Mai rapid si mai usor de implementat. :)
+
+**Explicatie suma**
+
+QUERY:
+
+- se foloseste un vector v[i] - suma pe (i - 2^k, i]. (pozitiile divizibile cu 2^k stochează suma ultimelor 2^k elemente)
+- cu ajutorul lui calculam sumele partiale [1..y]
+- descompunem pe y ca suma de patrate iar suma se obtine ca suma de v[k] k se obtine din y eliminand succesiv cate un bit de 1
+
+``` C++
+void Add(int x, int quantity)
+{
+    int i;
+ 
+    for (i = x; i <= N; i += zeros(i))
+        AIB[i] += quantity;
+}
+```
+
+UPDATE:
+
+``` C++
+int Compute(int x)
+{
+    int i, ret = 0;
+ 
+    for (i = x; i > 0; i -= zeros(i))
+        ret += AIB[i];
+    return ret;
+}
+```
+
 
 
