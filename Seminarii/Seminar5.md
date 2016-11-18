@@ -126,5 +126,28 @@ int Compute(int x)
 }
 ```
 
+## Coduri Huffman
 
+Exista codificari: 
+
+- cu lungime fixa: mai putin eficient din punct de vedere al lungimii
+- cu lungime variabila
+
+**De ce Huffman?** Ne dorim un arbore optim (minimizeaza suma w * lg_pana_la_frunza)
+
+**Algoritm**
+Arbore Huffman: Arbore binar avand ca frunze datele de intrare insotite de ponderi, iar muchiile sunt codificate astfel:
+
+- muchia stanga: 0
+- muchia dreapta: 1
+
+TO DO: IMAGINE
+
+La fiecare pas vom impreuna nodurile cu cele mai mici ponderi=> un nod interior cu ponderea suma fiilor sai.
+
+**Observatii**
+
+- Arborele nu este unic din cauza cazurilor de egalitate intre ponderi
+- Decodificarea unui mesaj este unica (are proprietatea prefix: codul niciunei litere nu este prefix al altei litere)
+- e optim
 
