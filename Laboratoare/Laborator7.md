@@ -3,7 +3,7 @@ layout: item
 permalink: /Laboratoare/Laborator7/
 ---
 
-Heapuri
+Quicksort. Paduri de multimi disjuncte. Statistici de ordine
 
 - QuickSort [aici](http://www.infoarena.ro/problema/algsort) 30p
 - SDO [aici](http://www.infoarena.ro/problema/sdo) 30p
