@@ -1,6 +1,6 @@
 ---
 layout: item
-permalink: /Laboratoare/Laborator6/
+permalink: /Laboratoare/Laborator7/
 ---
 
 Heapuri
