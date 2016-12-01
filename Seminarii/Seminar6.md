@@ -28,7 +28,7 @@ Se foloseste o structura care are la baza:
 - o functie de dispersie: h : - K -> {0 .. m} care mapeaza cheia la o regiune din tabela de dispersie.
                               - valoarea cheii k nu mai e stocata pe pozitia k, ci pe pozitia h(k), avand valoarea maxima mult mai mica (m)
 
-TO DO: imagine
+<img src="/ASD/images/hash_general.jpg"  height="220">
 
 **Complexitate**
 
@@ -61,7 +61,7 @@ Aplicare:
 - se inmulteste k cu (A * 2^w) - alegem deci m = s / 2^w
 - se iau primii p biti din ultimii w => maparea
 
-TO DO: imagine
+<img src="/ASD/images/multiplication-hashing.jpg"  height="220">
 
 3. Folding
 
@@ -83,7 +83,7 @@ Atunci cand cautam cheia k parcurgem lista corespunzatoare lui h(k) cautand chei
 
 Worst Case: O(n) - toate cheile creaza aceasi coliziune si trebuie parcursa toata lista
 
-TO DO: imagine
+<img src="/ASD/images/chaining.jpg"  height="220">
 
 2. Prin adresare directa(deschisa)
 
@@ -92,6 +92,8 @@ Avem prin functie o modalitate de tratare a coliziunilor
 
 h: K x {0..m - 1} -> {0 .. m-1}
 h(k, i) - in ce este mapat k daca am intalnit a i-a coliziune
+
+<img src="/ASD/images/Double_hash.png"  height="220">
 
 **Adresare liniara**
 
