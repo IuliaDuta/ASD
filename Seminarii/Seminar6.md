@@ -43,7 +43,7 @@ h :  K -> {0 ..m - 1}
 
 1. Modul
 
-h(k) = k % m
+**h(k) = k % m**
 
 Obs:
 
@@ -53,7 +53,7 @@ Obs:
 
 2. Multiplicativ
 
-h(k) = [m * (k * A mod 1)], cu 0 < A < 1
+**h(k) = [m * (k * A mod 1)]**, cu 0 < A < 1
 
 (x mod 1) - partea fractionara a lui x luata ca intreg
 Aplicare: 
@@ -67,9 +67,9 @@ TO DO: imagine
 
 k = k1 k2 k3 .. kr
 
-h(k) = (k1 + k2 + .. + kr) % (10^l)
+**h(k) = (k1 + k2 + .. + kr) % (10^l)**
 
-4. h(k) = [k * k / (10^c1)] % (10^c2)
+4. **(k) = [k * k / (10^c1)] % (10^c2)**
 
 - calculeaza k^2 si ia c2 cifre din mijlocul numarului
 
