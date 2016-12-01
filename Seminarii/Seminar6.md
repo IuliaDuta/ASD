@@ -83,7 +83,7 @@ Atunci cand cautam cheia k parcurgem lista corespunzatoare lui h(k) cautand chei
 
 Worst Case: O(n) - toate cheile creaza aceasi coliziune si trebuie parcursa toata lista
 
-<img src="/ASD/images/chaining.jpg"  height="220">
+<img src="/ASD/images/chaining.png"  height="220">
 
 2. Prin adresare directa(deschisa)
 
@@ -130,7 +130,17 @@ Exemple de functii de hashing pe stringuri:
 - (Suma din a^i * xi) % size cu (a, size) = 1
 - Suma codului ascii in perechi de cate 2/4
 
+## STL
 
+- dictionarele de date sunt implementate si in libraria STL:
+
+unordered_map<tip_cheie, tip_valoare> mymap
+
+! Structurile folosite pe post de cheie trebuie sa aiba o functie de hashing implementata - operator() - si operatorul de egalitate - operator== -.
+
+Elementele se acceseaza usor, ca intr-o tabela obisnuita:
+
+mymap[cheie] = valoare
 
 ## Cuckoo hashing
 
