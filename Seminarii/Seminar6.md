@@ -14,6 +14,8 @@ Acest seminar prezinta **Tabele de dispersie**.
 Dorim sa implementam un dictionar de date (cheie, valoare), cu acces rapid si timp redus la inserare/stergere.
 Exemplu: vector de frecventa pentru numere intr-un range foarte mare.
 
+Se dau n numere. Care din el apare de cele mai multe ori??
+
 **Metoda directa**
 Stocam un vector de dimensiune MAX_VALUE si stocam informatia pe pozitia cheii, asemeni vectorului de frecventa. 
 
@@ -143,8 +145,21 @@ Elementele se acceseaza usor, ca intr-o tabela obisnuita:
 mymap[cheie] = valoare
 
 ## Cuckoo hashing
+https://en.wikipedia.org/wiki/Cuckoo_hashing
+http://www.lkozma.net/cuckoo_hashing_visualization/
+
 
 ## Rolling hash
+
+- Rabin Karp: gasiti toate aparitiile unui subsir intr-un sir
+- Cel mai lung sbsir comun a 2 siruri
+- Cel mai lung palidrom continut intr-un sir
+
+Probleme:
+
+Per - infoarena
+Inflight entertainment
+Longest substring without repetition
 
 
 
