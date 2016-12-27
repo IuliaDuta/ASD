@@ -53,6 +53,10 @@ Aplicatii:
 
 ## Dijkstra
 
+Se da un graf cu costuri asociate arcelor. Se cere distanta minima de la un nod la toate celelalte noduri.
+
+Complexitate: O(|E| + |V|log|V|)
+
 ## APM
 
 ## Trie
