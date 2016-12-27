@@ -9,5 +9,5 @@ Hashuri
 - Curatenie [aici](http://www.infoarena.ro/problema/curatenie)- 20p 
 - Hashuri [aici](http://www.infoarena.ro/problema/hashuri) -20p
 - Winner [aici](http://codeforces.com/problemset/problem/2/A) - 20p
-- Abc2 - 50p
-- Banana - 50p
+- Abc2 [aici](http://www.infoarena.ro/problema/abc2)- 50p
+- Banana [aici](http://www.infoarena.ro/problema/banana) - 50p
