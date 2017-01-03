@@ -110,3 +110,7 @@ Aplicatii:
 - Structura de stocare a unui dictionar cu determinare de prefixe comune, frecventa
 - Sortare lexicografica
 - Cautare predictiva
+
+TO DO: Poza
+
+TO DO: Probleme
