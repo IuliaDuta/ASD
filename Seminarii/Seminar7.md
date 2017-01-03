@@ -55,9 +55,47 @@ Aplicatii:
 
 Se da un graf cu costuri asociate arcelor. Se cere distanta minima de la un nod la toate celelalte noduri.
 
-Complexitate: O(|E| + |V|log|V|)
+Complexitate: O([E] + [V]log[V])
+
+Algoritm:
+
+Pas 1: Se marcheaza toate distantele cu infinit.
+
+Pas 2: Se considera pentru prima iteratie nodul curent nodul sursa iar distanta corespunzatoare 0. Se updateaza distanta catre toti vecinii nevizitati ai nodului, daca suma distre calea directa intre cele 2 noduri si valoarea nodului curent e mai mica decat vechea valoare a nodului vecin. Se viziteaza nodul curent si se seteaza nodul curent ca nodul cu cea mai mica valoare, nevizitat inca. si se reia Pasul 2.
+
+Obs. Pentru extragerea nodului curent se poate folosi o structura de tip min-heap.
 
 ## APM
+
+Se da un graf neorientat cu costuri. Se cere determinarea unui arbore avand muchii din graf astfel incat suma muchiilor sa fie minima.
+
+Obs. Cate muchii va avea? Se poate mereu?
+
+### Algoritmul lui Prim
+
+Pas 1: Se alege un nod random din graf si se adauga in arbore.
+
+Pas 2: Din multimea muchiilor ce unesc varfuri din arbore cu cele neadaugate inca se alege cea de cost minim. Se adauga muchia la arbore si nodul ca facand paret din cele marcate in arbore.
+
+Pas 3: Se repeta pasul 2 pana ce toate nodurile sut marcate.
+
+Complexitate: 
+
+O(V^2) - naive
+O(E logV) - cu heapuri
+
+### Algoritmul lui Kruskal
+
+Pasul 1: Adauga toate muchiile intr-un min-heap dupa costuri. Si considera fiecare nod individual in prpria componenta.
+
+Pasul 2: Extrage cea mai mica muchie din heap. Daca conecteaza 2 noduri din aceasi componenta ignora muchia, altfel o considera componenta a arborelui si cele 2 componente conexe sunt reunite in una singura.
+
+Pasul 3: Repeta pasul 2 pana cand toate nodurile sunt in aceasi componeta.
+ 
+Implementare:cu ajutorul multimilor de paduri disjuncte - explicatie pe scurt
+
+Complexitate O(E log E)
+
 
 ## Trie
 
