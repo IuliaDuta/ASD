@@ -99,4 +99,14 @@ Complexitate O(E log E)
 
 ## Trie
 
+Motivatie: Vreau sa retin o multime de cuvinte despre care ma intereseaza: prefixe comune, frecventa, altele..
 
+Structura folosita este un K-arbore (un arbore in care fiecare nod are K fii), unde K este lungimea alfabetului folosit. Fiecarei muchii i se asociaza o valoare reprezentand o litera a alfabetului. Fiecari nod i se asociaza cuvantul obtinut de la radacina urmarind literele muchiilor de pe drum.
+
+Obs. Memoria necesara depinde de numarul de prefixe comune si lungimea acestora (daca multe cuvinte au acelasi prefix, acesta va fi stocat o singura data, diferenta fiind facuta doar de sufixele care se ramifica).
+
+Aplicatii:
+
+- Structura de stocare a unui dictionar cu determinare de prefixe comune, frecventa
+- Sortare lexicografica
+- Cautare predictiva
