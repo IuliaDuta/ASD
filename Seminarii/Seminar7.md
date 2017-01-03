@@ -111,6 +111,6 @@ Aplicatii:
 - Sortare lexicografica
 - Cautare predictiva
 
-TO DO: Poza
+<img src="/ASD/images/implement-trie.png"  height="220">
 
 TO DO: Probleme
