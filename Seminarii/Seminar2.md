@@ -75,9 +75,9 @@ Partition:
   pivot = A[r]
   i = p - 1
   for j = p to r - 1
-    if A[j] < pivot
+    if A[j] <= pivot
       ++i
-      swap A[i] A[r]
+      swap A[i] A[j]
   swap A[i + 1] A[r]
   return i + 1
   
